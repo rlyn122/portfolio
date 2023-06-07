@@ -5,6 +5,7 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
   <link href="style.css" rel="stylesheet">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
@@ -22,14 +23,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Work</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
+            <a class="nav-link" href="#portfolio">Work</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
@@ -43,40 +47,72 @@
     </div>
   </nav>
 
-  <header class='text-center p-section'>
-    <div class='container-fluid'>
-      <div class='row'>
-        <div class='col-md-6 offset-md-3'>
-          <sup>Meet Brandon Leung</sup>
-          <h1>Combining <span class='marker-highlight'>technology</span> and creative <span class='marker-highlight'>problem-solving</span> to positively impact others.</h1>
-          <p class='lead mb-5'>I use technology to connect people and help others reach their full potential.</p>
-
-          <a target='_blank' href='https://www.linkedin.com/in/brandon-l/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
-          <!-- <a  target='_blank' href='https://calendly.com/morganjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
-          <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
-          <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+  <section id='about' class='p-section'>
+    <div class='container container-lg'>
+      <sup>About</sup>
+      <h2 class='mb-5 underline'>Brandon Leung</h2>
+  
+      <div class='row flex-row'>
+        <div class='col-sm-4'>
+          <div class='p-3 sticky-top' style='top: 85px;'>
+            <img src="img/IMG_2666.jpg" class='circle mb-3'>
+  
+            <ul class='list-inline mb-0 text-center'>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='https://www.linkedin.com/in/brandon-l/' target='_blank' class=''>
+                  <i class="bi-linkedin"></i>
+                </a>
+              </li>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='https://github.com/bdongo' target='_blank' class=''>
+                  <i class="bi-github"></i>
+                </a>
+              </li>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='https://cargocollective.com/brandonleung' target='_blank' class=''>
+                  <i class="bi-rss"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </div>
-  </header>
-
-  <section id='company' class='p-section'>
-    <div class='container text-center'>
-      <label class='sup mb-3 text-muted'>Employment History</label>
-
-      <div class='row justify-content-center d-flex align-items-center'>
-        <div class='col-2'>
-          <img src="img/tesla-logo-free-download-free-vector.jpeg" class='px-3'>
-        </div>
-        <div class='col-2'>
-          <img src="img/7046017.jpeg" class='px-3'>
-        </div>
-        <div class='col-2'>
-          <img src="img/Screen Shot 2023-05-18 at 5.48.56 PM.png" class='px-3'>
+        <div class='col-sm-8'>
+          <blockquote>Passionate software engineer with a background in fashion design, combining meticulous attention to
+            detail and creative
+            problem-solving to deliver innovative solutions.</blockquote>
+  
+          <!-- <img src="img/github-activity.png" class='mb-3'> -->
+  
+          <p class='lead'><span class='marker-highlight'>Exceeding expectations</span> in every industry, Brandon is a
+            <span class='marker-highlight'>collaborative</span> team player with strong <span
+              class='marker-highlight'>communication</span> skills,
+            unwavering <span class='marker-highlight'>dependability</span>, and a drive for results-driven success.
+            Currently honing his craft in software engineering to
+            bring exceptional value to future employers.
+          </p>
+  
+          <p class='lead mb-0'>Favorite Tools:</p>
+  
+          <ul class='lead'>
+            <li><span class='marker-highlight'>JavaScript</span></li>
+            <li>Ruby on Rails</li>
+            <li>Github</li>
+            <li>GitLens</li>
+          </ul>
+  
+          <div class='mt-5'>
+            <a target='_blank' href='https://www.linkedin.com/in/brandon-l/' class='btn btn-primary'><i
+                class="bi-linkedin"></i> Connect on Linkedin</a>
+            <!-- <a  target='_blank' href='https://calendly.com/morganjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
+            <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
+            <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+
 
   <section id='portfolio' class='p-section bg-light'>
     <div class='container'>
@@ -92,15 +128,15 @@
             <div class='card-body'>
 
               <h3>YLP</h3>
-              <p class='mb-3'>my full stack clone of Yelp, leveraged my expertise in building <span class="bold">RESTful API</span>s using <span class="bold">Ruby on Rails</span>, managing
+              <p class='mb-3'>a full stack clone of Yelp, leveraged my expertise in building <span class="bold">RESTful API</span>s using <span class="bold">Ruby on Rails</span>, managing
               databases with <span class="bold">PostgreSQL</span>, and developing the frontend using <span class="bold">React.js</span> and <span class="bold">Redux</span>. This project, completed in just 10
               days, showcased my ability to work efficiently and effectively in a fast-paced environment.</p>
               
             </div>
             <div class='card-footer'>
               <a target='_blank' href='https://github.com/bdongo/fsp/wiki/Schema' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a>
-              <a target='_blank' href='https://ylp.onrender.com/' class='btn btn-sm btn-light'><i class="bi-power"></i> Demo</a>
-              <a target='_blank' href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a>
+              <a target='_blank' href='https://ylp.onrender.com/' class='btn btn-sm btn-light'><i class="bi bi-box-arrow-up-right"></i> Live</a>
+              <!-- <a target='_blank' href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a> -->
             </div>
           </div>
         </div>
@@ -122,15 +158,15 @@
             </div>
             <div class='card-footer'>
               <a target='_blank' href='https://github.com/bdongo/smooth' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a>
-              <a target='_blank' href='https://smooth.onrender.com/' class='btn btn-sm btn-light'><i class="bi-power"></i> Demo</a>
-              <a target='_blank' href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a>
+              <a target='_blank' href='https://smooth.onrender.com/' class='btn btn-sm btn-light'><i class="bi bi-box-arrow-up-right"></i> Live</a>
+              <!-- <a target='_blank' href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a> -->
             </div>
           </div>
         </div>
 
         <div class='col-sm-4'>
           <div class='card h-100'>
-            <div class='background-image' style='background-image: url(img/js.jpeg)'>
+            <div class='background-image' style='background-image: url(img/jsp.png)'>
               <img src='img/spacer-landscape.png'>
             </div>
             <div class='card-body'>
@@ -143,8 +179,8 @@
             </div>
             <div class='card-footer'>
               <a target='_blank' href='https://github.com/bdongo/fashiontrends' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a>
-              <a target='_blank' href='https://bdongo.github.io/fashiontrends/' class='btn btn-sm btn-light'><i class="bi-power"></i> Demo</a>
-              <a target='_blank' href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a>
+              <a target='_blank' href='https://bdongo.github.io/fashiontrends/' class='btn btn-sm btn-light'><i class="bi bi-box-arrow-up-right"></i> Live</a>
+              <!-- <a target='_blank' href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a> -->
             </div>
           </div>
         </div>
@@ -223,67 +259,9 @@
     </div>
   </section>
 
-  <section id='about' class='p-section'>
-    <div class='container container-lg'>
-      <sup>About</sup>
-      <h2 class='mb-5 underline'>Brandon Leung</h2>
 
-      <div class='row flex-row'>
-        <div class='col-sm-4'>
-          <div class='p-3 sticky-top' style='top: 85px;'>
-            <img src="img/IMG_2666.jpg" class='circle mb-3'>
 
-            <ul class='list-inline mb-0 text-center'>
-              <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://www.linkedin.com/in/brandon-l/' target='_blank' class=''>
-                  <i class="bi-linkedin"></i>
-                </a>
-              </li>
-              <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://github.com/bdongo' target='_blank' class=''>
-                  <i class="bi-github"></i>
-                </a>
-              </li>
-              <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://cargocollective.com/brandonleung' target='_blank' class=''>
-                  <i class="bi-rss"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class='col-sm-8'>
-          <blockquote>Passionate software engineer with a background in fashion design, combining meticulous attention to detail and creative
-          problem-solving to deliver innovative solutions.</blockquote>
-
-          <!-- <img src="img/github-activity.png" class='mb-3'> -->
-
-          <p class='lead'><span class='marker-highlight'>Exceeding expectations</span> in every industry, Brandon is a <span class='marker-highlight'>collaborative</span> team player with strong <span class='marker-highlight'>communication</span> skills,
-          unwavering <span class='marker-highlight'>dependability</span>, and a drive for results-driven success. Currently honing his craft in software engineering to
-          bring exceptional value to future employers.
-          </p>
-          
-          <p class='lead mb-0'>Favorite Tools:</p>
-
-          <ul class='lead'>
-            <li><span class='marker-highlight'>JavaScript</span></li>
-            <li>Ruby on Rails</li>
-            <li>Github</li>
-            <li>GitLens</li>
-          </ul>
-
-          <div class='mt-5'>
-            <a target='_blank' href='https://www.linkedin.com/in/brandon-l/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
-            <!-- <a  target='_blank' href='https://calendly.com/morganjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
-            <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
-            <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id='testimonials' class='p-section'>
+  <!-- <section id='testimonials' class='p-section'>
     <div class='container'>
       <sup>Testimonials</sup>
       <h2 class='mb-5 underline'>Kind Words<br>from Great People</h2>
@@ -333,7 +311,123 @@
       </div>
 
     </div>
+  </section> -->
+      <section id='company' class='p-section'>
+        <div class='container text-center'>
+          <label class='sup mb-3 text-muted'>Employment History</label>
+      
+          <div class='row justify-content-center d-flex align-items-center'>
+            <div class='col-2'>
+              <img src="img/tesla-logo-free-download-free-vector.jpeg" class='px-3'>
+            </div>
+            <div class='col-2'>
+              <img src="img/7046017.jpeg" class='px-3'>
+            </div>
+            <div class='col-2'>
+              <img src="img/Screen Shot 2023-05-18 at 5.48.56 PM.png" class='px-3'>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <section id="skills" class='text-center p-section'>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-md-6 offset-md-3'>
+          <sup>Current Skills</sup>
+          <div class="skills-container">
+            <div>
+              <i class="devicon-javascript-plain"></i>
+              <p>JavaScript</p>
+            </div>
+
+            <div>
+              <i class="devicon-react-original"></i>
+              <p>React<p>
+            </div>
+
+            <div>
+              <i class="devicon-redux-original"></i>
+              <p>Redux</p>
+            </div>
+
+            <div>
+              <i class="devicon-nodejs-plain"></i>
+              <p>Node.js</p>
+            </div>
+
+            <div>
+              <i class="devicon-ruby-plain"></i>
+              <p>Ruby</p>
+            </div>
+
+            <div>
+              <i class="devicon-rails-plain-wordmark"></i>
+              <p>Ruby on Rails</p>
+            </div>
+
+            <div>
+              <i class="devicon-postgresql-plain"></i>
+              <p>PostgreSQL</p>
+            </div>
+
+            <div>
+              <i class="devicon-mongodb-plain"></i>
+              <p>MongoDB</p>
+            </div>
+
+            <div>
+              <i class="devicon-npm-original-wordmark"></i>
+              <p>NPM</p>
+            </div>
+
+            <div>
+              <i class="devicon-amazonwebservices-original"></i>
+              <p>AWS</p>
+            </div>
+
+            <div>
+              <i class="devicon-git-plain"></i>
+              <p>Git</p>
+            </div>
+
+            <div>
+              <i class="devicon-github-original"></i>
+              <p>GitHub</p>
+            </div>
+
+            <div>
+              <i class="devicon-heroku-original"></i>
+              <p>Heroku</p>
+            </div>
+
+            <div>
+              <i class="devicon-vscode-plain"></i>
+              <p>VS Code</p>
+            </div>
+
+            <div>   
+              <i class="devicon-css3-plain-wordmark"></i>
+              <p>CSS</p>
+            </div>
+
+            <div>
+              <i class="devicon-html5-plain-wordmark"></i>
+              <p>HTML</p>
+            </div>
+          </div>
+  
+          <a target='_blank' href='https://www.linkedin.com/in/brandon-l/' class='btn btn-primary'><i
+              class="bi-linkedin"></i> Connect on Linkedin</a>
+          <!-- <a  target='_blank' href='https://calendly.com/morganjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
+          <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
+          <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+        </div>
+      </div>
+    </div>
   </section>
+
+
 
   <section class='bg-dark text-white section-inverse'>
     <div class='container'>
@@ -397,13 +491,13 @@
       <sup>Contact</sup>
       <h2 class='mb-5'>Let's Talk</h2>
 
-      <p class='w-sm ms-auto me-auto lead'>Hey! There is no better way to get to know each other than a chat. You set the agenda or we can start with these talking points:</p>
+      <p class='w-sm ms-auto me-auto lead'>Hey! Chatting is the best way to get to know each other. You set the agenda or we can start with these talking points:</p>
 
       <ul class='list-unstyled lead'>
-        <li>Coffee (The bougier the better)</li>
-        <li>Running (I'm training for an Ultra)</li>
-        <li>Reading (Fiction, nonfiction... all of it)</li>
-        <li>Moonlanding</li>
+        <li>Coffee (Who doesn't love paying $6+ for a beverage?)</li>
+        <li>Fashion (Fashion is so accessible, everyone is so stylish now)</li>
+        <li>Board Games (Highly competitive)</li>
+        <li>Favorite Food Experiences</li>
       </ul>
 
       <div class='mt-5'>

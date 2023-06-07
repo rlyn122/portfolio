@@ -66,7 +66,7 @@ sup, .sup {
 }
 
 .background-image {
-  background-position: center center;
+  background-position: top center;
   /* background-size: cover; */
   background-size: contain;
   background-repeat: no-repeat;
@@ -155,4 +155,22 @@ header.p-section {
   left: -0.05em;
   padding: 0 0.25em;
   bottom: 0.2em;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Creates 4 equal-width columns */
+  gap: 2em;
+  /* Adds a gap between the columns */
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.skills-container i {
+  font-size: 4em;
+}
+
+.skills-container p {
+  font-size: 1.2em;
 }
