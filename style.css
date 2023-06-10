@@ -146,9 +146,10 @@ header.p-section {
 
 .marker-highlight:before {
   content: "";
-  background-color: #0b6efd87;
+  background-color: #0757c787;
   width: 102%;
-  height: 0.2em;
+  height: 0.14em;
+  /* height: 0.2em; */
   position: absolute;
   z-index: -2;
   filter: url(#marker-shape);
